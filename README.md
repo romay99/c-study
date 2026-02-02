@@ -94,3 +94,6 @@ gcc -Wall -g -std=c11 -Iinclude -o bin/c-study src/main.c src/basics/basics.c sr
 ---
 
 화이팅! 🚀
+
+# c-study
+C 공부
