@@ -1,6 +1,6 @@
 /**
  * @file pointers.c
- * @brief C 언어 포인터 학습 구현
+ * @brief [2단계] C 언어 포인터 학습 구현
  * 
  * [Java vs C]
  * Java: 참조(reference) - 객체를 가리키지만 주소 연산 불가

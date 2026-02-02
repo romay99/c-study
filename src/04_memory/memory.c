@@ -1,6 +1,6 @@
 /**
  * @file memory.c
- * @brief C 언어 메모리 관리 학습 구현
+ * @brief [4단계] C 언어 메모리 관리 학습 구현
  * 
  * [Java vs C 메모리]
  * Java: new로 할당 -> GC가 자동 회수

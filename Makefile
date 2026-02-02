@@ -45,7 +45,7 @@ all: directories $(TARGET)
 directories:
 	@mkdir -p $(BIN_DIR)
 	@mkdir -p $(BUILD_DIR)
-	@mkdir -p $(BUILD_DIR)/basics $(BUILD_DIR)/pointers $(BUILD_DIR)/struct $(BUILD_DIR)/memory
+	@mkdir -p $(BUILD_DIR)/01_basics $(BUILD_DIR)/02_pointers $(BUILD_DIR)/03_struct $(BUILD_DIR)/04_memory
 
 # 링킹: 오브젝트 파일들을 묶어 실행 파일 생성
 $(TARGET): $(OBJECTS)

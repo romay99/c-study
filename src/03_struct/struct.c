@@ -1,6 +1,6 @@
 /**
  * @file struct.c
- * @brief C 언어 구조체 학습 구현
+ * @brief [3단계] C 언어 구조체 학습 구현
  * 
  * [Java 클래스 vs C 구조체]
  * - struct: 데이터만 (필드)

@@ -1,6 +1,6 @@
 /**
  * @file pointers.h
- * @brief C 언어 포인터 학습 - 헤더 파일
+ * @brief [2단계] C 언어 포인터 학습 - 헤더 파일
  * 
  * [Java 개발자에게 가장 중요한 C 개념]
  * Java에는 포인터가 없고 참조(reference)만 있습니다.

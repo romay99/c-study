@@ -1,6 +1,6 @@
 /**
  * @file basics.c
- * @brief C 언어 기본 문법 구현
+ * @brief [1단계] C 언어 기본 문법 구현
  * 
  * Java Spring 개발자를 위한 C 기본 문법 학습
  * 각 섹션마다 Java와의 비교 주석을 포함했습니다.
