@@ -1,0 +1,22 @@
+# 빌드 산출물
+build/
+bin/
+
+# 오브젝트 파일
+*.o
+*.obj
+
+# 실행 파일
+*.exe
+*.out
+
+# 디버그 파일
+*.dSYM/
+*.pdb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
