@@ -1,12 +1,15 @@
 /**
  * @file struct.c
  * @brief [3단계] C 언어 구조체 학습 구현
- * 
+ *
  * [Java 클래스 vs C 구조체]
  * - struct: 데이터만 (필드)
  * - 메서드 없음 -> 별도 함수로 구현
- * - 생성자/소멸자 없음 -> 수동 초기화
  * - 접근: . (구조체) 또는 -> (구조체 포인터)
+ *
+ * [#include 설명 - Java만 알면 참고]
+ * #include "파일" → 그 파일 내용을 여기 붙여 넣는 것. Java의 import 와 비슷.
+ * "struct.h" 에 Person 구조체 정의가 있음. C_BASICS.md 참고.
  */
 
 #include <stdio.h>

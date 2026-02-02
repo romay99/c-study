@@ -1,11 +1,23 @@
 /**
  * @file basics.c
  * @brief [1단계] C 언어 기본 문법 구현
- * 
+ *
  * Java Spring 개발자를 위한 C 기본 문법 학습
  * 각 섹션마다 Java와의 비교 주석을 포함했습니다.
+ *
+ * ========== #include 설명 (Java만 알면 참고) ==========
+ * #include "파일" → 그 파일 내용을 여기에 붙여 넣는 것. Java의 import 와 비슷한 역할.
+ *
+ * #include <stdio.h>
+ *   - 표준 라이브러리. printf, scanf 등 사용하려면 필요. (Java의 System.out 같은 것)
+ * #include <stdlib.h>
+ *   - 표준 라이브러리. malloc, free 등에 필요.
+ * #include <string.h>
+ *   - 문자열 함수들. strcpy, strlen, strcmp 등 (C에는 String 클래스가 없어서 이걸 씀)
+ * #include "basics.h"
+ *   - 우리가 만든 헤더. "이 파일(basics.c)에서 쓰는 함수들이 뭔지" 선언이 들어 있음.
+ *     실제 구현은 이 .c 파일 안에 아래에 나옵니다.
  */
-
 #include <stdio.h>   /* printf, scanf 등 - Java의 System.out과 유사 */
 #include <stdlib.h>  /* 표준 라이브러리 */
 #include <string.h>  /* 문자열 함수들 */

@@ -1,12 +1,15 @@
 /**
  * @file struct.h
  * @brief [3단계] C 언어 구조체 학습 - 헤더 파일
- * 
+ *
  * [Java의 클래스와 비교]
  * C의 struct는 Java의 클래스와 유사하지만 중요한 차이가 있습니다:
  * - struct에는 메서드(함수)가 없고 데이터만 있습니다
  * - 상속, 다형성 등 OOP 개념이 없습니다
- * - 명시적으로 메모리를 관리해야 합니다
+ *
+ * [이 파일에서 쓰는 C 기초]
+ * #ifndef / #define / #endif → include guard (C_BASICS.md 참고)
+ * typedef struct { ... } Person; → "Person 이라는 이름의 구조체 타입" 정의 (Java의 class 비슷)
  */
 
 #ifndef STRUCT_H

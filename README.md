@@ -5,9 +5,12 @@ Java Spring 개발자를 위한 C 언어 학습용 프로젝트입니다.
 
 ---
 
-## 📖 학습 순서 가이드
+## 📖 가이드 문서
 
-**어떤 순서로 공부할지**는 **[LEARNING_GUIDE.md](LEARNING_GUIDE.md)** 를 보세요.
+| 문서 | 내용 |
+|------|------|
+| **[C_BASICS.md](C_BASICS.md)** | C를 처음 보는 사람용: `#include`, `#define`, `#ifndef` 등 **기초 용어 설명** (Java와 비교) |
+| **[LEARNING_GUIDE.md](LEARNING_GUIDE.md)** | **학습 순서**와 단계별로 볼 파일·함수 정리 |
 
 | 순서 | 폴더 | 학습 주제 |
 |:----:|------|-----------|

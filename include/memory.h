@@ -1,10 +1,13 @@
 /**
  * @file memory.h
  * @brief [4단계] C 언어 메모리 관리 학습 - 헤더 파일
- * 
+ *
  * [Java와의 결정적 차이]
  * Java: 가비지 컬렉터가 자동으로 메모리 회수
  * C: malloc/free로 수동 관리 - 메모리 누수와 해제 후 사용 버그 주의!
+ *
+ * [이 파일에서 쓰는 C 기초]
+ * #ifndef MEMORY_H / #define MEMORY_H / #endif → include guard (C_BASICS.md 참고)
  */
 
 #ifndef MEMORY_H

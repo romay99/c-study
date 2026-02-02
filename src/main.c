@@ -1,14 +1,25 @@
 /**
  * @file main.c
  * @brief C 언어 학습 프로젝트 - 메인 진입점
- * 
+ *
  * Java의 public static void main(String[] args)와 유사
  * C의 main 함수: int main(int argc, char *argv[])
  *   - argc: 인자 개수 (프로그램 이름 포함)
  *   - argv: 인자 문자열 배열
  *   - 반환값: 0=성공, 0이 아님=에러 (OS에 전달)
+ *
+ * ========== #include 란? (Java만 알면 여기서 설명) ==========
+ * #include 는 "그 파일의 내용을 여기에 그대로 붙여 넣어라"는 뜻입니다.
+ * Java의 import 와 비슷하게 "다른 코드를 쓰기 위해 불러오는 것"이라고 보면 됩니다.
+ *
+ * #include <stdio.h>
+ *   - < > 꺾쇠: "표준 라이브러리"에서 찾습니다. (컴파일러가 아는 경로)
+ *   - stdio.h: 표준 입출력 (printf, scanf 등). Java의 System.out 같은 걸 쓰려면 필요.
+ *
+ * #include "basics.h"
+ *   - " " 따옴표: "우리 프로젝트 안의 파일"에서 찾습니다. (현재 폴더 또는 -I 로 준 경로)
+ *   - basics.h: 우리가 만든 헤더. 여기에 선언된 함수들을 이 파일에서 쓸 수 있게 됩니다.
  */
-
 #include <stdio.h>
 #include "basics.h"
 #include "pointers.h"

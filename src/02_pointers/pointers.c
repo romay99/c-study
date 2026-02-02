@@ -1,12 +1,15 @@
 /**
  * @file pointers.c
  * @brief [2단계] C 언어 포인터 학습 구현
- * 
+ *
  * [Java vs C]
  * Java: 참조(reference) - 객체를 가리키지만 주소 연산 불가
  * C: 포인터(pointer) - 메모리 주소 자체를 다룸, *와 & 연산자 사용
- * 
- * 포인터는 C의 핵심이자 Java 개발자가 가장 헷갈리는 부분입니다!
+ *
+ * [#include 설명 - Java만 알면 참고]
+ * #include "파일" → 그 파일 내용을 여기 붙여 넣는 것. Java의 import 와 비슷.
+ * <stdio.h> = 표준 입출력(printf 등), <stdlib.h> = malloc/free 등, "pointers.h" = 우리 헤더.
+ * 자세한 건 프로젝트 루트의 C_BASICS.md 참고.
  */
 
 #include <stdio.h>

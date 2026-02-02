@@ -1,12 +1,14 @@
 /**
  * @file memory.c
  * @brief [4단계] C 언어 메모리 관리 학습 구현
- * 
+ *
  * [Java vs C 메모리]
  * Java: new로 할당 -> GC가 자동 회수
  * C: malloc/calloc으로 할당 -> free로 수동 해제 (반드시!)
- * 
- * 메모리 누수, Double free, Use-after-free 등 주의!
+ *
+ * [#include 설명 - Java만 알면 참고]
+ * #include "파일" → 그 파일 내용을 여기 붙여 넣는 것.
+ * stdlib.h = malloc, free 등, string.h = strlen 등. C_BASICS.md 참고.
  */
 
 #include <stdio.h>

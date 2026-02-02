@@ -1,11 +1,16 @@
 /**
  * @file pointers.h
  * @brief [2단계] C 언어 포인터 학습 - 헤더 파일
- * 
+ *
  * [Java 개발자에게 가장 중요한 C 개념]
  * Java에는 포인터가 없고 참조(reference)만 있습니다.
  * C의 포인터는 "메모리 주소를 저장하는 변수"입니다.
- * 포인터를 이해해야 C에서 메모리 관리, 동적 할당, 함수 인자 전달을 이해할 수 있습니다.
+ *
+ * [이 파일에서 쓰는 C 기초]
+ * #ifndef POINTERS_H  → "POINTERS_H 가 아직 정의 안 됐으면" (include guard)
+ * #define POINTERS_H  → "지금 정의함" (같은 헤더가 두 번 포함되는 것 방지)
+ * #endif              → 조건 블록 끝
+ * 자세한 설명: C_BASICS.md 참고
  */
 
 #ifndef POINTERS_H
