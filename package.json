@@ -7,5 +7,8 @@
     "preview": "cd web && npm run preview",
     "web:install": "cd web && npm install"
   },
-  "description": "C 언어 학습 프로젝트 - Java 개발자용"
+  "description": "C 언어 학습 프로젝트 - Java 개발자용",
+  "dependencies": {
+    "remark-gfm": "^4.0.1"
+  }
 }
