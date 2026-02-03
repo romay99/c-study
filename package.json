@@ -1,0 +1,11 @@
+{
+  "name": "c-study",
+  "private": true,
+  "scripts": {
+    "dev": "cd web && npm run dev",
+    "build": "cd web && npm run build",
+    "preview": "cd web && npm run preview",
+    "web:install": "cd web && npm install"
+  },
+  "description": "C 언어 학습 프로젝트 - Java 개발자용"
+}

@@ -1,0 +1,81 @@
+.code-runner {
+  margin: 1.5rem 0;
+}
+
+.code-runner-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-code);
+  border: 1px solid var(--border);
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+}
+
+.code-runner-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.run-btn {
+  padding: 0.4rem 1rem;
+  background: var(--accent-green);
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.run-btn:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+.run-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.code-runner-textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  background: var(--bg-code);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 0 0 8px 8px;
+  resize: vertical;
+}
+
+.code-runner-textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.code-runner-output {
+  margin-top: 0.75rem;
+  padding: 1rem;
+  background: var(--bg-code);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.code-runner-output.error {
+  border-color: var(--accent-red);
+}
+
+.output-header {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.code-runner-output pre {
+  margin: 0;
+  white-space: pre-wrap;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}

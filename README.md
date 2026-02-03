@@ -21,12 +21,31 @@ Java Spring 개발자를 위한 C 언어 학습용 프로젝트입니다.
 
 ---
 
+## 🌐 웹에서 보기 (React)
+
+브라우저에서 C 코드를 보고 실행할 수 있는 웹 앱이 포함되어 있습니다.
+
+```bash
+# 첫 실행 시 의존성 설치
+npm run web:install
+
+# 개발 서버 실행 (브라우저 자동 열림)
+npm run dev
+```
+
+- **코드 보기**: 각 모듈(01_basics ~ 04_memory)의 .h, .c 파일을 브라우저에서 읽을 수 있음
+- **C 실행**: Piston API를 사용해 브라우저에서 C 코드 실행 (인터넷 필요)
+
+---
+
 ## 프로젝트 구조
 
 ```
 c-study/
+├── web/                 # React 웹 앱 (npm run dev)
 ├── LEARNING_GUIDE.md   ← 📖 학습 순서·파일별 가이드 (먼저 읽기)
 ├── README.md
+├── package.json        # npm run dev → 웹 실행
 ├── Makefile
 ├── build.bat
 ├── include/             # 헤더 파일 (.h)
